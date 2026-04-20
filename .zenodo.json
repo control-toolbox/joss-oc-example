@@ -1,0 +1,55 @@
+{
+  "description": "<p>Illustrative example accompanying the JOSS paper <em>OptimalControl.jl: A Julia package for modeling and solving optimal control problems with ODEs</em>. This companion repository provides a self-contained Julia script that solves a constrained energy-minimization optimal control problem, combining a direct transcription method (solved with IPOPT) with an indirect shooting method based on Pontryagin's Maximum Principle. The direct solution is used to identify the three-arc structure (unconstrained-constrained-unconstrained) and to initialize the shooting. See <a href=\"https://github.com/control-toolbox/OptimalControl.jl\">OptimalControl.jl</a> for the package itself.</p>",
+  "title": "joss-oc-example: illustrative example companion to the OptimalControl.jl JOSS paper",
+  "upload_type": "software",
+  "keywords": [
+    "optimal control",
+    "control of ODE's",
+    "optimization",
+    "direct transcription",
+    "shooting",
+    "Pontryagin's Maximum Principle",
+    "Julia",
+    "OptimalControl.jl"
+  ],
+  "creators": [
+    {
+      "affiliation": "Université Côte d'Azur, CNRS, Inria, LJAD, France",
+      "name": "Caillau, Jean-Baptiste",
+      "orcid": "0000-0002-1719-2016"
+    },
+    {
+      "affiliation": "Université Toulouse, CNRS, ENSEEIHT-IRIT, France",
+      "name": "Cots, Olivier",
+      "orcid": "0000-0002-4703-4369"
+    },
+    {
+      "affiliation": "Université Toulouse, CNRS, ENSEEIHT-IRIT, France",
+      "name": "Gergaud, Joseph",
+      "orcid": "0009-0005-9825-8652"
+    },
+    {
+      "affiliation": "CAGE team, Inria Paris, France",
+      "name": "Martinon, Pierre",
+      "orcid": "0000-0003-0571-2376"
+    },
+    {
+      "affiliation": "Inria Sophia Antipolis Méditerranée, France",
+      "name": "Sed, Sophia"
+    }
+  ],
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "identifier": "https://github.com/control-toolbox/joss-oc-example/releases/latest",
+      "relation": "isSupplementTo"
+    },
+    {
+      "scheme": "doi",
+      "identifier": "10.5281/zenodo.13336652",
+      "relation": "isSupplementTo"
+    }
+  ],
+  "license": "MIT"
+}

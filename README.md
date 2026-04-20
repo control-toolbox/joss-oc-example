@@ -1,5 +1,7 @@
 # JOSS paper example — OptimalControl.jl
 
+[![DOI](https://zenodo.org/badge/1215947301.svg)](https://doi.org/10.5281/zenodo.19663649)
+
 This repository provides a standalone illustrative example of
 [OptimalControl.jl](https://github.com/control-toolbox/OptimalControl.jl),
 serving as a companion annex to the submitted JOSS paper:
